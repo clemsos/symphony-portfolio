@@ -1,0 +1,232 @@
+/*
+Theme Name: Ajax Portfolio
+Theme URI: http://www.clemsos.com/wp-themes
+Description: A theme for personal portfolio using ajax/JS with multiple content types (publications, sketch, project)
+Author: Clement Renaud
+Author URI: http://www.clemsos.com
+Version: 0.9
+.
+General comments/License Statement if any.
+.
+*/
+
+
+#heightWarning {
+	background: rgba(255, 255, 255, 0.93);
+	position: absolute;
+	z-index: 50;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 220px;
+	color:#000;
+	font-size:24pt;
+	display:none
+}
+
+#loading {
+	display:none
+}
+
+div.wp_geo_map img {
+	max-width:none;
+}
+
+#ajax-featured, #featured {
+/*background-color: rgba(0, 0, 0, .70);*/
+background-color: #000; 
+opacity: 0.7;
+color:#FFF;
+text-align:right;
+}
+
+img.home-img {
+max-height: 70%;
+}
+#featured h3 {
+	margin:15px 0 10px 0;
+}
+
+
+#featured a:hover {
+color: white;
+}
+
+#featured h5 {
+font-size: 14pt;
+padding-top: 0.6em;
+}
+
+#gall-loader, #ajax-featured {
+display:none;
+}
+
+
+.gmnoprint {
+	display:none
+}
+
+.plural {
+font-size:70%
+}
+
+#featured li {
+list-style:none
+}
+/* #navig */
+#navig ul {
+list-style:none;
+padding:0;
+margin:0;
+}
+
+#navig li a {
+color:#000
+}
+
+#proj-list, #skill-list  {
+display:none;
+} 
+
+#proj-list li a, #skill-list li a{
+color:#AAA
+}
+
+/* home */
+
+/* #gallery */
+
+#gallery {
+list-style:none
+}
+.entry-gallery {
+width: 200px;
+float: left;
+height:200px
+}
+
+.entry-gallery a span.slide-title {
+font-size:16pt;
+line-height:1.2em
+}
+
+
+/* sketch */
+.entry-artwork {
+margin: 0 auto;
+text-align: center;
+padding-top: 55px;
+}
+.entry-artwork img {
+max-width:90%;
+height:auto
+
+}
+#nav-below {
+position:absolute;
+bottom:25px;
+width:100%
+}
+
+#nav-below a, #nav-below a:visited {
+color:#FFF;
+background-color:#000;
+padding:3px
+}
+.nav-previous {
+float:left;
+max-width:50%
+}
+.nav-next {
+float:right;
+margin-right:50px;
+max-width:50%
+
+}
+
+/*category*/
+.entry-cat {
+width:70%;
+float:right;
+}
+
+.thumb-proj {
+width:20%;
+float:left;
+}
+
+.cat-proj  {
+border-bottom:1px dashed #CCC;
+padding:15px 0 10px 0;
+}
+.mini-thumb {
+float:right;
+margin:5px
+}
+
+/*projects*/
+.entry-meta {
+text-align: right;
+}
+#featured p {
+text-align: right;
+}
+#proj-map {
+margin-top:15px
+}
+.single-proj p {
+padding:0 10px 0 10px
+}
+
+/*publication*/
+tr {
+border-bottom:1px solid #CCC;
+}
+
+td {
+padding:15px
+}
+td.table-title {
+text-align:center;
+font-weight:bold;
+}
+
+td.publi-title {
+width:30%;
+}
+
+td.publi-excerpt {
+	width:40%
+}
+
+td.more-publi img {
+	vertical-align:top
+}
+
+
+/*publisher */
+#publisher {
+text-align:center;
+}
+
+#publi-meta {
+margin-top:15px
+}
+#publi-meta p {
+text-align:justify;
+margin-top:15px
+}
+
+/*acad */
+#acad-table{
+margin:20px auto;
+}
+
+td.lab,td.school {
+width:15%;
+text-align:center
+}
+
+#acad-table h3 a:hover {
+border-bottom:1px dashed #CCC
+}
